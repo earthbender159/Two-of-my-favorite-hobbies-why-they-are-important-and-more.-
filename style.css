@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+
+.Profile {
+    width: 275px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#Welcome {
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    width: 100%;
+    position: absolute;
+    height: 800px;
+    color: #ffffff;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    display: table;
+}
+
+#Bio {
+    padding: 50px;
+    text-align: center;
+    font-size: 32px;
+
+}
+
+.line {
+    height: 10px;
+    background-color: black;
+    width: 80px;
+    margin: 50px auto;
+}
+
+.inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17;
+}
+
+#name {
+    font-size: 30px;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+.links {
+    float: left;
+    padding top: 5px;
+    padding-bottom: 5px;
+    padding-right: 9px;
+    padding-left: 9px;
+    font-size: 20px;
+    list-style: none;
+}
+
+.menu {
+    position: absolute;
+    top: 10px;
+    z-index: 10;
+    right: 30px;
+    cursor: pointer;
+    font-family: 'Zilla Slab', serif;
+}
+
+.links:hover {
+    background-color: darkseagreen;
+    font-size: 22px;
+    text-decoration: underline;
+}
